@@ -42,3 +42,23 @@ script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Label4" type="Label" parent="."]
+margin_left = 178.336
+margin_top = 203.12
+margin_right = 218.336
+margin_bottom = 221.12
+script = null
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextEdit" type="TextEdit" parent="."]
+margin_left = 917.626
+margin_top = 509.594
+margin_right = 957.626
+margin_bottom = 549.594
+script = null
+__meta__ = {
+"_edit_use_anchors_": false
+}

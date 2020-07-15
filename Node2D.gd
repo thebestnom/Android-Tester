@@ -26,5 +26,6 @@ func _input(event):
 		$Label2.text = "button mask {button_mask}".\
 			format({"button_mask": event.get_button_mask()})
 	if event is InputEventKey:
-		$Label4.text = "keyboard click {key} {clicked} ".\
-			format({"clicked": event.pressed, "key": event.keycode})
+		$Label4.text = "keyboard click {key} {clicked} shift: {shift} alt: {alt} ctrl: {ctrl}".\
+			format({"clicked": event.pressed, "key": event.keycode, \
+			 "shift": event.shift, "alt": event.alt, "ctrl": event.control})

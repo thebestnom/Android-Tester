@@ -28,4 +28,4 @@ func _input(event):
 	if event is InputEventKey:
 		$Label4.text = "keyboard click {key} {clicked} shift: {shift} alt: {alt} ctrl: {ctrl}".\
 			format({"clicked": event.pressed, "key": event.keycode, \
-			 "shift": event.shift, "alt": event.alt, "ctrl": event.control})
+				"shift": event.shift, "alt": event.alt, "ctrl": event.control})

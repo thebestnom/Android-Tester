@@ -13,46 +13,6 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label2" type="Label" parent="."]
-margin_left = 1.71475
-margin_top = 57.4442
-margin_right = 41.7148
-margin_bottom = 71.4442
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Label" type="Label" parent="Label2"]
-margin_left = 163.759
-margin_top = 126.892
-margin_right = 203.759
-margin_bottom = 140.892
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Label3" type="Label" parent="."]
-margin_left = 165.3
-margin_top = 288.8
-margin_right = 205.3
-margin_bottom = 302.8
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Label4" type="Label" parent="."]
-margin_left = 178.336
-margin_top = 203.12
-margin_right = 218.336
-margin_bottom = 221.12
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="TextEdit" type="TextEdit" parent="."]
 margin_left = 917.626
 margin_top = 509.594

@@ -1,6 +1,7 @@
 extends Node2D
 
 var all_events = []
+var capture = false
 
 func _input(event):
 	$Label.text = ""
@@ -24,3 +25,10 @@ func _input(event):
 					"shift": e.shift, "alt": e.alt, "ctrl": e.control})
 		$Label.text += "\n %s" % text
 		i += 1
+	if event is InputEventMouseButton and event.doubleclick and capture:
+		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+
+
+func _on_Button_pressed():
+	capture = true
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
